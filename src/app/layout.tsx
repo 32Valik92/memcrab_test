@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="uk">
-    <body className="min-h-screen bg-black text-white">
+    <body className="min-h-screen text-white">
     <MatrixProvider>{children}</MatrixProvider>
     </body>
     </html>
